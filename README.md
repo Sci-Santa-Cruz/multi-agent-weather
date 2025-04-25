@@ -14,6 +14,27 @@ Before running the system, make sure to define the following environment variabl
 - `NEWS_API_KEY`: Key for international news.
 - `OPENAI_API_KEY`: Key for the LLM used by the agents.
 
+
+
+### Logging Configuration
+
+To enable or disable logging, set the following environment variable:
+
+- To **disable logging**, set the variable to `true`:
+
+```bash
+DISABLE_LOGGING=true
+```
+
+- To **enable logging**, set the variable to `false`:
+
+```bash
+DISABLE_LOGGING=false
+```
+
+This configuration allows you to control whether logs are generated during the execution of the application.
+
+
 ## Project Structure
 
 Below is the project structure, organized into different directories to modularize the key components of the system:
