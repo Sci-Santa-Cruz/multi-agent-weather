@@ -1,0 +1,19 @@
+# Ignorar los checkpoints de Jupyter Notebooks
+*.ipynb_checkpoints/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos temporales de editores de texto (como vim, emacs, etc.)
+*.swp
+*.swo
+*.bak
+*.tmp
+
+
+
+# Archivos generados por logs o entornos virtuales
+*.log
+.env
+.venv
