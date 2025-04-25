@@ -108,11 +108,13 @@ The system uses LangGraph to implement a workflow based on a graph:
 The following notebooks have been completed. They contain the basic structure and agent integration:
 
 1. **01_business_requirements.ipynb**: Defines business requirements.
-2. **02_agent_design.ipynb**: Designs agents for handling queries.
+2. **02_agent_design.ipynb**: Designs agents to handle queries.
 3. **04_agent_prototyping.ipynb**: Initial prototype to test each component individually (nodes and subagents).
-4. **07_agent_integration.ipynb**: Integration of system components.
-5. **08_deployment_strategy.ipynb**: Checklist for production deployment.
-
+4. **06_agent_evaluation.ipynb**: Technical, ethical, cognitive, and security testing plan.
+5. **07_agent_integration.ipynb**: Integration of system components and agent testing.
+6. **08_deployment_strategy.ipynb**: Proposed infrastructure architecture and checklist for production deployment.
+7. **10_future_improvements.ipynb**: Improvements and pending tasks before productionizing.
+   
 ## How to Run the PoC
 
 ### Prerequisites
